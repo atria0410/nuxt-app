@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.prod
+    ports:
+      - "${NUXT_PORT}:3000"
+    environment:
+      - TZ=${TZ}

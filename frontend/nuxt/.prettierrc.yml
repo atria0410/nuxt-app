@@ -1,0 +1,20 @@
+# 詳細は以下を参照してください
+# https://prettier.io/docs/en/options
+
+printWidth: 100 # 1行あたりの最大文字数
+tabWidth: 2 # インデントのスペースの数
+useTabs: false # タブでインデントするか
+semi: false # 行末にセミコロンを付与するか
+singleQuote: true # 文字列の囲みにシングルクォートを使用するか
+quoteProps: 'as-needed' # オブジェクトのプロパティ引用符で囲むか
+trailingComma: 'none' # 複数要素の末尾にカンマを付与するか
+bracketSpacing: true # オブジェクト内の要素と括弧の間にスペースを入れ入れるか
+bracketSameLine: false # タグの閉じカッコを同一行に含めるか
+arrowParens: 'always' # アロー関数の単一パラメーターをカッコで囲むか
+requirePragma: false # プラグマ付きファイルをフォーマット対象とするか
+insertPragma: false # プラグマを挿入するか
+htmlWhitespaceSensitivity: 'css' # HTML 空白の感度
+vueIndentScriptAndStyle: false # Vueファイルの <script> と <style> ブロックのインデント
+endOfLine: 'lf' # 改行コード
+embeddedLanguageFormatting: 'auto' # 組み込み言語のフォーマットを有効にするか
+singleAttributePerLine: false # HTML、Vue、JSXにおいて、属性を改行するか

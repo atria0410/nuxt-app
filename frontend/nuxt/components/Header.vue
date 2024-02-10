@@ -5,12 +5,12 @@
     </template>
 
     <template v-slot:prepend>
-      <v-app-bar-nav-icon @click="props.clickNavMenu()" />
+      <v-app-bar-nav-icon @click="clickNavMenu()" />
     </template>
 
     <v-app-bar-title>
-      <NuxtLink :to="props.titleLink" class="title-link">
-        {{ props.title }}
+      <NuxtLink :to="titleLink" class="title-link">
+        {{ title }}
       </NuxtLink>
     </v-app-bar-title>
 

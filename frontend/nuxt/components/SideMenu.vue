@@ -1,18 +1,14 @@
 <template>
   <v-navigation-drawer v-model:rail="rail" :expand-on-hover="expandOnHover" permanent>
     <v-list>
-      <v-list-item
-        :prepend-avatar="props.userIcon"
-        :title="props.userName"
-        :subtitle="props.email"
-      ></v-list-item>
+      <v-list-item :prepend-avatar="userIcon" :title="userName" :subtitle="email"></v-list-item>
     </v-list>
 
     <v-divider></v-divider>
 
     <v-list density="compact" nav>
       <v-list-item
-        v-for="menu in props.menuList"
+        v-for="menu in menuList"
         :prepend-icon="menu.icon"
         :title="menu.title"
         :value="menu.value"

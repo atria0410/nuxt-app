@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@infectoone/vue-ganttastic": "^2.2.0",
     "@mdi/font": "^7.4.47",
+    "dayjs": "^1.11.10",
     "nuxt": "^3.10.1",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"

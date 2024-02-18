@@ -13,11 +13,13 @@
     "@infectoone/vue-ganttastic": "^2.2.0",
     "@mdi/font": "^7.4.47",
     "dayjs": "^1.11.10",
+    "draggable-resizable-vue3": "^1.0.94-beta",
     "nuxt": "^3.10.1",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "sass": "^1.71.0",
     "vite-plugin-vuetify": "^2.0.1",
     "vuetify": "^3.5.3"
   }

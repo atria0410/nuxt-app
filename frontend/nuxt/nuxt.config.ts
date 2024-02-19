@@ -21,8 +21,5 @@ export default defineNuxtConfig({
         transformAssetUrls
       }
     }
-  },
-  imports: {
-    dirs: ['types']
   }
 })
